@@ -1,5 +1,5 @@
 import {RxHamburgerMenu} from 'react-icons/rx'
-import youtubeIcon from '/public/youtube.png'
+import youtubeIcon from '/src/assets/images/youtube.png'
 import {AiOutlineSearch} from 'react-icons/ai'
 import {BsFillMicFill} from 'react-icons/bs'
 import {TfiUpload} from 'react-icons/tfi'
