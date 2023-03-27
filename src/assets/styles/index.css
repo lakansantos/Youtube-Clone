@@ -12,7 +12,8 @@ body {
     min-height: 100vh;
     display: grid;
     grid-template: 
-    "header header header" 15%
+    "header header header" 7%
+    "navlinks navlinks navlinks" 5%
     "sidebar video-collections-container video-collections-container" 1fr/15% 1fr 1fr;
 }
 
@@ -21,8 +22,13 @@ body {
     height: 100%;;
 }
 
+.header-links-container {
+    grid-area: navlinks;
+}
+
 .pages-header {
     grid-area: header;
+    border: 1px solid red;
 }
 
 .video-collections-container {
@@ -83,6 +89,7 @@ body {
     border-radius: 0px 20px 20px 0px;
     padding: 5.5px;
     width: 10%;
+    background-color: rgb(240, 234, 234);
 }
 
 .search-bar-container .search-logo {
@@ -98,7 +105,6 @@ body {
 
 
 .header-right-section {
-    border: 1px solid red;
     width: 10%;
     align-items: center;
     justify-content: center;
