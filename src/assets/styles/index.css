@@ -30,10 +30,7 @@ body {
     grid-area: header;
 }
 
-.video-collections-container {
-    grid-area: video-collections-container;
-    border: 5px solid green;
-}
+
 
 .pages-header {
     display: flex;
@@ -158,4 +155,22 @@ body {
     cursor: pointer;
     background: black;
     color: white;
+}
+
+/* video collections  */
+.video-collections-container {
+    grid-area: video-collections-container;
+    border: 5px solid green;
+    display: flex;  
+    gap: 20px;
+    flex-direction: row;
+}
+
+.video-box {
+    width: 1000%;
+    border-radius: 10px;
+    border: 1px solid red;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
 }
