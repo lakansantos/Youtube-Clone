@@ -160,17 +160,75 @@ body {
 /* video collections  */
 .video-collections-container {
     grid-area: video-collections-container;
-    border: 5px solid green;
     display: flex;  
+    padding: 20px 50px;
     gap: 20px;
     flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
 }
 
 .video-box {
-    width: 1000%;
+    width: 30%;
     border-radius: 10px;
-    border: 1px solid red;
-    height: 250px;
+    height: 300px;
     display: flex;
     flex-direction: column;
+    gap: 10px;
+}
+
+.thumbnail-container {
+    width: 100%;
+    height: 75%;
+    border-radius: 15px;
+}
+
+.video-details-container {
+    display: flex;
+    height: 25%;
+    flex-direction: row;
+}
+
+.channel-profile-container {
+    width: 12%;
+}
+
+.post-details-container {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.channel-profile {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.youtube-post-title {
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: bolder;
+    letter-spacing: -1px;
+}
+
+.post-channel-name {
+    display: flex;
+    font-size: .9rem;
+    color: #606060;
+}
+
+.viewcount-container {
+    display: flex;
+    align-items: center;
+}
+
+.viewcount-container span {
+    height: 100%;
+}
+
+.viewcount-container p {
+    color: gray;
+    font-size: .85rem;
 }
