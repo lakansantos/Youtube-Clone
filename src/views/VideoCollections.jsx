@@ -5,6 +5,7 @@ import {BsDot} from 'react-icons/bs'
 
 const VideoCollections = () => {
     const [data, setData] = useState(null)
+    const [hovered, setHovered] = useState(null)
 
     useEffect(() => {
         axios.get('/src/data/VideosData.json')
@@ -19,11 +20,17 @@ const VideoCollections = () => {
         <div className="video-collections-container">
             {data?.map((postData) => {
                 return (
-                    <div className="video-box" key={postData.id}>
+                    <div className="video-box" 
+                    key={postData.id}
+                    onMouseEnter={() => setHovered(postData.id)}
+                    onMouseLeave={() => setHovered(null)}
+                    >
                         <div 
                         className="thumbnail-container"
                         style={{
-                            background: `url(${postData.thumbnail}) center/cover no-repeat`}}
+                            background: `url(${postData.thumbnail}) center/cover no-repeat`,
+                            borderRadius: `${postData.id === hovered ? '0px' : '15px'}`
+                        }}
                         >
                         </div>
                         <div className="video-details-container">
