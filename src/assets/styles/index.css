@@ -362,3 +362,30 @@ hr {
 .settings-icon {
     width: 60%;
 }
+
+footer {
+    height: 240px;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    flex-direction: row;
+}
+footer ul li {
+    list-style-type: none;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: gray;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: .75rem;
+}

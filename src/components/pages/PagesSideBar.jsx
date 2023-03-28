@@ -13,6 +13,8 @@ import youtubeKidsImage from '/src/assets/images/youtube-kids.png'
 import {CiSettings} from 'react-icons/ci'
 import {FiHelpCircle} from 'react-icons/fi'
 import {RiFeedbackLine} from 'react-icons/ri'
+
+import PagesFooter from './PagesFooter'
 const PageSideBar = () => {
     return (
         <div className="page-side-bar">
@@ -195,6 +197,7 @@ const PageSideBar = () => {
                 </ul>
             </div>
             <hr />
+            <PagesFooter />
         </div>
     )
 }
