@@ -166,10 +166,10 @@ body {
 .video-collections-container {
     grid-area: video-collections-container;
     display: flex;  
-    padding: 20px 50px;
     gap: 20px;
+    margin-left: 50px;
     flex-direction: row;
-    width: 100%;
+    width: 95%;
     height: fit-content;
     flex-wrap: wrap;
 }
@@ -252,7 +252,7 @@ body {
 
 .page-side-bar {    
     grid-area: sidebar;
-    height: 100vh;
+    height: 94%;
     overflow: auto;
     position: fixed;
     width: 13%;
@@ -315,6 +315,8 @@ hr {
 
 .sidebar-icon {
     font-size: 1.3rem;
+    width: 50%;
+    height: 50%;
 }
 
 
@@ -325,7 +327,7 @@ hr {
     font-size: 1rem;
 }
 
-.subscription-icon {
+.subscription-icon{
     padding: 5px;
     border-radius: 50%;
     width: 65%;
@@ -350,3 +352,13 @@ hr {
 }
 
 
+.explore-icon {
+    margin: 0;
+    width: 55%;
+    height: 55%;
+    padding: 0;
+}
+
+.settings-icon {
+    width: 60%;
+}

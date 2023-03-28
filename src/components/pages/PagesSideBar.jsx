@@ -1,10 +1,18 @@
 import {AiFillHome} from 'react-icons/ai'
 import {BiLike} from 'react-icons/bi'
 import {BsCollectionPlay, BsFilePlay} from 'react-icons/bs'
-import {MdVideoLibrary, MdHistory, MdOutlineWatchLater} from 'react-icons/md'
+import {MdVideoLibrary, MdHistory, MdOutlineWatchLater, MdOutlinedFlag} from 'react-icons/md'
 import musicImage from '/src/assets/images/music.png'
 import trophyImage from '/src/assets/images/trophy.png'
 import videoImage from '/src/assets/images/video.png'
+import {TfiMusic} from 'react-icons/tfi'
+import fireImage from '/src/assets/images/fire.png'
+import youtubeImage from '/src/assets/images/youtube.png'
+import youtubeMusicImage from '/src/assets/images/youtube music.png'
+import youtubeKidsImage from '/src/assets/images/youtube-kids.png'
+import {CiSettings} from 'react-icons/ci'
+import {FiHelpCircle} from 'react-icons/fi'
+import {RiFeedbackLine} from 'react-icons/ri'
 const PageSideBar = () => {
     return (
         <div className="page-side-bar">
@@ -107,13 +115,15 @@ const PageSideBar = () => {
                     <h3>Explore</h3>
                     <li>
                         <a href="">
-                            <span><BsCollectionPlay className="sidebar-icon" /></span>
+                            <span>
+                                <img src={fireImage} alt="Movies" className="sidebar-icon explore-icon icon-1" />
+                            </span>
                             <p>Trending</p>
                         </a>
                     </li>
                     <li>
                         <a href="">
-                            <span><BsCollectionPlay className="sidebar-icon" /></span>
+                            <span><TfiMusic className="sidebar-icon explore-icon icon-2" /></span>
                             <p>Music</p>
                         </a>
                     </li>
@@ -131,19 +141,25 @@ const PageSideBar = () => {
                     <h3>More from YouTube</h3>
                     <li>
                         <a href="">
-                            <span><BsCollectionPlay className="sidebar-icon" /></span>
+                            <span>
+                                <img src={youtubeImage} alt="Youtube Premium" className="sidebar-icon more-icon icon-1" />
+                            </span>
                             <p>YouTube Premium</p>
                         </a>    
                     </li>
                     <li>
                         <a href="">
-                            <span><BsCollectionPlay className="sidebar-icon" /></span>
+                            <span>
+                                <img src={youtubeMusicImage} alt="Youtube Music" className="sidebar-icon more-icon icon-2" />
+                            </span>
                             <p>YouTube Music</p>
                         </a>
                     </li>
                     <li>
                         <a href="">
-                            <span><BsCollectionPlay className="sidebar-icon" /></span>
+                            <span>
+                                <img src={youtubeKidsImage} alt="Youtube Kids" className="sidebar-icon more-icon icon-3" />
+                            </span>
                             <p>YouTube Kids</p>
                         </a>    
                     </li>
@@ -154,25 +170,25 @@ const PageSideBar = () => {
                 <ul>
                     <li>
                         <a href="">
-                            <span><BsCollectionPlay className="sidebar-icon" /></span>
+                            <span><CiSettings className="sidebar-icon settings-icon" /></span>
                             <p>Settings </p>
                         </a>    
                     </li>
                     <li>
                         <a href="">
-                            <span><BsCollectionPlay className="sidebar-icon" /></span>
+                            <span><MdOutlinedFlag className="sidebar-icon" /></span>
                             <p>Report History</p>
                         </a>
                     </li>
                     <li>
                         <a href="">
-                            <span><BsCollectionPlay className="sidebar-icon" /></span>
+                            <span><FiHelpCircle className="sidebar-icon" /></span>
                             <p>Help</p>
                         </a>    
                     </li>
                     <li>
                         <a href="">
-                            <span><BsCollectionPlay className="sidebar-icon" /></span>
+                            <span><RiFeedbackLine className="sidebar-icon" /></span>
                             <p>Send feedback</p>
                         </a>    
                     </li>
