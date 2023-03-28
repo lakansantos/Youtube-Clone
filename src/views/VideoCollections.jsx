@@ -29,7 +29,9 @@ const VideoCollections = () => {
                         className="thumbnail-container"
                         style={{
                             background: `url(${postData.thumbnail}) center/cover no-repeat`,
-                            borderRadius: `${postData.id === hovered ? '0px' : '15px'}`
+                            borderRadius: `${postData.id === hovered ? '0px' : '15px'}`,
+                            transition: '.3s ease-in-out',
+                            transform: `${postData.id === hovered ? 'scale(1.05)' : ''}`,
                         }}
                         >
                         </div>
