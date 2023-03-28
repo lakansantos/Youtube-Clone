@@ -11,16 +11,14 @@ body {
 .App {
     min-height: 100vh;
     display: grid;
+    grid-column-gap: 30px;
     grid-template: 
     "header header header" 7%
     "sidebar navlinks navlinks" 5%
-    "sidebar video-collections-container video-collections-container" 1fr/15% 1fr 1fr;
+    "sidebar video-collections-container video-collections-container" 1fr/12% 1fr 1fr;
 }
 
-.pages-side-bar {
-    grid-area: sidebar;
-    height: 100%;;
-}
+
 
 .header-links-container {
     grid-area: navlinks;
@@ -153,8 +151,7 @@ body {
 
 .header-links-container ul li:hover {
     cursor: pointer;
-    background: black;
-    color: white;
+    background: #eceaea;
 }
 
 /* video collections  */
@@ -165,11 +162,12 @@ body {
     gap: 20px;
     flex-direction: row;
     width: 100%;
+    height: fit-content;
     flex-wrap: wrap;
 }
 
 .video-box {
-    width: 30%;
+    width: 24%;
     border-radius: 10px;
     height: 300px;
     display: flex;
@@ -232,3 +230,99 @@ body {
     color: gray;
     font-size: .85rem;
 }
+
+/* page side bar */
+
+.page-side-bar {    
+    grid-area: sidebar;
+    height: 100%;
+}
+
+
+hr {
+    border: 1px solid rgb(249, 246, 246);
+    width: 95%;
+}
+
+.icon-container {
+    min-height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icon-container ul {
+    display: flex;
+    padding: 10px;    
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+}
+
+
+.icon-container ul li {
+    list-style-type: none;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.icon-container ul li:hover {
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+
+.icon-container span {
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+.icon-container ul li a {
+    display: flex;
+    color: black;
+    justify-content:flex-start;
+    align-items: center;
+    text-decoration: none;
+}
+
+.icon-container ul li.active {
+    background-color: #f2f2f2;
+}
+
+.sidebar-icon {
+    font-size: 1.3rem;
+}
+
+
+.icon-container ul h3 {
+    font-family: sans-serif;
+    font-weight: 400;
+    margin-left: 10px;
+    font-size: 1rem;
+}
+
+.subscription-icon {
+    padding: 5px;
+    border-radius: 50%;
+    width: 65%;
+    height: 65%;
+}
+
+.subscription-icon.icon-1 {
+    background-color: rgb(182, 67, 208);
+}
+
+.subscription-icon.icon-2 {
+    background-color: rgb(77, 59, 212);
+}
+
+.subscription-icon.icon-3 {
+   padding: 0;
+   margin: 0;
+}
+
+.subscription-icon.icon-4 {
+    background-color: rgb(182, 67, 208);
+}
+
+
