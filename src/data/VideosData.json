@@ -9,6 +9,7 @@
             "viewCount" : "120K",
             "time" : "49 minutes ago",
             "videoLink" : "https://www.youtube.com/watch?v=9VRfN2v-KF4",
+            "embedVideo": "https://www.youtube.com/embed/PS8sTLqKfA8",
             "videoLength" : "18:04",
             "channelProfile": "https://yt3.googleusercontent.com/v7l2R0EwlXkvJDiMMNKaFpCKox2LECGLJIxUL5Ng8pq9HW4cy71N3l1XkAemLRXjAss31exdATs=s176-c-k-c0x00ffffff-no-rj"
         }, 
@@ -21,6 +22,7 @@
             "viewCount" : "200k",
             "time" : "49 minutes ago",
             "videoLink": "https://www.youtube.com/watch?v=9VRfN2v-KF4",
+            "embedVideo": "https://www.youtube.com/embed/9VRfN2v-KF4",
             "videoLength" : "20:04",
             "channelProfile": "https://yt3.googleusercontent.com/v7l2R0EwlXkvJDiMMNKaFpCKox2LECGLJIxUL5Ng8pq9HW4cy71N3l1XkAemLRXjAss31exdATs=s176-c-k-c0x00ffffff-no-rj"
         }, 
@@ -33,6 +35,7 @@
             "viewCount" : "1M",
             "time" : "1 hour ago",
             "videoLink": "https://www.youtube.com/watch?v=9VRfN2v-KF4",
+            "embedVideo": "https://www.youtube.com/embed/PS8sTLqKfA8",
             "videoLength" : "18:04",
             "channelProfile": "https://yt3.googleusercontent.com/v7l2R0EwlXkvJDiMMNKaFpCKox2LECGLJIxUL5Ng8pq9HW4cy71N3l1XkAemLRXjAss31exdATs=s176-c-k-c0x00ffffff-no-rj"
         }, 
@@ -46,6 +49,8 @@
             "viewCount" : "3.1M",
             "time" : "2 years ago",
             "videoLink": "https://www.youtube.com/watch?v=g3yFIHcXn4A",
+            "embedVideo": "https://www.youtube.com/embed/g3yFIHcXn4A",
+            
             "videoLength" : "55:57",
             "channelProfile": "https://yt3.googleusercontent.com/ytc/AL5GRJXXBwjdoKS5ksntb_8QjxSBQytbU2V-yedRBi7L=s176-c-k-c0x00ffffff-no-rj"
         },
@@ -58,6 +63,7 @@
             "viewCount" : "2M",
             "time" : "1 month ago",
             "videoLink": "https://www.youtube.com/watch?v=SPdK3wRBk5o",
+            "embedVideo": "https://www.youtube.com/embed/SPdK3wRBk5o",
             "videoLength" : "11:01:04",
             "channelProfile": "https://yt3.googleusercontent.com/v7l2R0EwlXkvJDiMMNKaFpCKox2LECGLJIxUL5Ng8pq9HW4cy71N3l1XkAemLRXjAss31exdATs=s176-c-k-c0x00ffffff-no-rj"
         }, 
@@ -70,6 +76,7 @@
             "viewCount" : "555k",
             "time" : "10 days ago",
             "videoLink": "https://www.youtube.com/watch?v=SPdK3wRBk5o",
+            "embedVideo": "https://www.youtube.com/embed/SPdK3wRBk5o",
             "videoLength" : "28:13",
             "channelProfile": "https://yt3.googleusercontent.com/v7l2R0EwlXkvJDiMMNKaFpCKox2LECGLJIxUL5Ng8pq9HW4cy71N3l1XkAemLRXjAss31exdATs=s176-c-k-c0x00ffffff-no-rj"
         }, 
@@ -82,6 +89,7 @@
             "viewCount" : "3.1M",
             "time" : "2 years ago",
             "videoLink": "https://www.youtube.com/watch?v=g3yFIHcXn4A",
+            "embedVideo": "https://www.youtube.com/embed/g3yFIHcXn4A",
             "videoLength" : "33:55",
             "channelProfile": "https://yt3.googleusercontent.com/ytc/AL5GRJXXBwjdoKS5ksntb_8QjxSBQytbU2V-yedRBi7L=s176-c-k-c0x00ffffff-no-rj"
         },
@@ -90,11 +98,12 @@
             "id" : 8,
             "thumbnail" : "https://i.ytimg.com/vi/-KaZAYFEYf8/hq720.jpg?sqp=-…RUAAIhCGAE=&rs=AOn4CLCFG6yr-Ems1FGd_C1h72RS_3IWFA",
             "title" : "[Playlist] best days of my youth songs that bring us back to 2010",
-            "channel" : "Mellow sOUNDS",
+            "channel" : "Mellow Sounds",
             "verified" : false,
             "viewCount" : "1.4M",
             "time" : "7 months ago",
             "videoLink": "https://www.youtube.com/watch?v=-KaZAYFEYf8",
+            "embedVideo": "https://www.youtube.com/embed/-KaZAYFEYf8",
             "videoLength" : "49:25",
             "channelProfile": "https://yt3.googleusercontent.com/ytc/AL5GRJXXBwjdoKS5ksntb_8QjxSBQytbU2V-yedRBi7L=s176-c-k-c0x00ffffff-no-rj"
         },
@@ -108,6 +117,7 @@
             "viewCount" : "120K",
             "time" : "49 minutes ago",
             "videoLink" : "https://www.youtube.com/watch?v=9VRfN2v-KF4",
+            "embedVideo": "https://www.youtube.com/embed/PS8sTLqKfA8",
             "videoLength" : "18:04",
             "channelProfile": "https://yt3.googleusercontent.com/v7l2R0EwlXkvJDiMMNKaFpCKox2LECGLJIxUL5Ng8pq9HW4cy71N3l1XkAemLRXjAss31exdATs=s176-c-k-c0x00ffffff-no-rj"
         }, 
@@ -120,6 +130,7 @@
             "viewCount" : "200k",
             "time" : "49 minutes ago",
             "videoLink": "https://www.youtube.com/watch?v=9VRfN2v-KF4",
+            "embedVideo": "https://www.youtube.com/embed/PS8sTLqKfA8",
             "videoLength" : "20:04",
             "channelProfile": "https://yt3.googleusercontent.com/v7l2R0EwlXkvJDiMMNKaFpCKox2LECGLJIxUL5Ng8pq9HW4cy71N3l1XkAemLRXjAss31exdATs=s176-c-k-c0x00ffffff-no-rj"
         }, 
@@ -132,6 +143,7 @@
             "viewCount" : "1M",
             "time" : "1 hour ago",
             "videoLink": "https://www.youtube.com/watch?v=9VRfN2v-KF4",
+            "embedVideo": "https://www.youtube.com/embed/9VRfN2v-KF4",
             "videoLength" : "18:04",
             "channelProfile": "https://yt3.googleusercontent.com/v7l2R0EwlXkvJDiMMNKaFpCKox2LECGLJIxUL5Ng8pq9HW4cy71N3l1XkAemLRXjAss31exdATs=s176-c-k-c0x00ffffff-no-rj"
         }, 
@@ -145,6 +157,7 @@
             "viewCount" : "3.1M",
             "time" : "2 years ago",
             "videoLink": "https://www.youtube.com/watch?v=g3yFIHcXn4A",
+            "embedVideo": "https://www.youtube.com/embed/PS8sTLqKfA8",
             "videoLength" : "55:57",
             "channelProfile": "https://yt3.googleusercontent.com/ytc/AL5GRJXXBwjdoKS5ksntb_8QjxSBQytbU2V-yedRBi7L=s176-c-k-c0x00ffffff-no-rj"
         },
@@ -157,6 +170,7 @@
             "viewCount" : "2M",
             "time" : "1 month ago",
             "videoLink": "https://www.youtube.com/watch?v=SPdK3wRBk5o",
+            "embedVideo": "https://www.youtube.com/embed/PS8sTLqKfA8",
             "videoLength" : "11:01:04",
             "channelProfile": "https://yt3.googleusercontent.com/v7l2R0EwlXkvJDiMMNKaFpCKox2LECGLJIxUL5Ng8pq9HW4cy71N3l1XkAemLRXjAss31exdATs=s176-c-k-c0x00ffffff-no-rj"
         }, 
@@ -181,6 +195,7 @@
             "viewCount" : "3.1M",
             "time" : "2 years ago",
             "videoLink": "https://www.youtube.com/watch?v=g3yFIHcXn4A",
+            "embedVideo": "https://www.youtube.com/embed/PS8sTLqKfA8",
             "videoLength" : "33:55",
             "channelProfile": "https://yt3.googleusercontent.com/ytc/AL5GRJXXBwjdoKS5ksntb_8QjxSBQytbU2V-yedRBi7L=s176-c-k-c0x00ffffff-no-rj"
         },
@@ -194,6 +209,7 @@
             "viewCount" : "1.4M",
             "time" : "7 months ago",
             "videoLink": "https://www.youtube.com/watch?v=-KaZAYFEYf8",
+            "embedVideo": "https://www.youtube.com/embed/PS8sTLqKfA8",
             "videoLength" : "49:25",
             "channelProfile": "https://yt3.googleusercontent.com/ytc/AL5GRJXXBwjdoKS5ksntb_8QjxSBQytbU2V-yedRBi7L=s176-c-k-c0x00ffffff-no-rj"
         }

@@ -6,16 +6,15 @@ import {BsDot} from 'react-icons/bs'
 const VideoCollections = () => {
     const [data, setData] = useState(null)
     const [hovered, setHovered] = useState(null)
+    const [hoverCounter, setHoverCounter] = useState(0);
 
     useEffect(() => {
         axios.get('/src/data/VideosData.json')
         .then(response => {
             setData(response.data.videos)
-            console.log(response.data.videos)
         })
         .catch(err => console.error(err))
     }, [])
-
     return (
         <div className="video-collections-container">
             {data?.map((postData) => {
@@ -34,6 +33,9 @@ const VideoCollections = () => {
                             transform: `${hovered === postData.id ? 'scale(1.05)' : ''}`,
                         }}
                         >
+                        {hovered === postData.id && 
+                            <iframe src={`${postData.embedVideo}?autoplay=1&mute=1&controls=0`} frameBorder={0} height={'100%'} width={'100%'}></iframe>
+                        }
                         </div>
                         <div className="video-details-container">
                             <div className="channel-profile-container">
