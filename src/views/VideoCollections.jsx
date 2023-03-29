@@ -6,7 +6,6 @@ import {BsDot} from 'react-icons/bs'
 const VideoCollections = () => {
     const [data, setData] = useState(null)
     const [hovered, setHovered] = useState(null)
-    const [hoverCounter, setHoverCounter] = useState(0);
 
     useEffect(() => {
         axios.get('/src/data/VideosData.json')
@@ -15,6 +14,7 @@ const VideoCollections = () => {
         })
         .catch(err => console.error(err))
     }, [])
+
     return (
         <div className="video-collections-container">
             {data?.map((postData) => {
@@ -64,11 +64,10 @@ const VideoCollections = () => {
                                     </span>
                                     <p>{postData.time}</p>
                                 </div>
-
                             </div>
                         </div>
                     </div>
-                )
+                    )
             })}
         </div>
     )

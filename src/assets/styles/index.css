@@ -20,6 +20,7 @@ body {
     "sidebar video-collections-container video-collections-container" 1fr/12% 1fr 1fr;
 }
 
+/* header links container  */
 .header-links-container {
     grid-area: navlinks;
     position: fixed;
@@ -31,6 +32,7 @@ body {
     background: white;
 }
 
+/* header section  */
 .pages-header {
     grid-area: header;
     height: 70px;
@@ -366,6 +368,7 @@ hr {
     width: 60%;
 }
 
+/* footer  */
 footer {
     height: 240px;
     width: 100%;
@@ -426,6 +429,7 @@ footer ul li a {
         display: none;
     }
 }
+/* for mobile to tablet screensizes */
 
 @media (max-width: 769px) {
     .header-right-section {
