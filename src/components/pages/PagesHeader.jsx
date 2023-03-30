@@ -28,7 +28,7 @@ const PagesHeader = () => {
             </div>
             <div className="header-right-section">
                 <TfiUpload />
-                <BsBell className='notification-icon'/>
+                <BsBell />
                 <img src={avatarIcon} alt="user avatar" className="user-avatar-icon"/>
             </div>
         </div>

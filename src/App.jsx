@@ -1,16 +1,10 @@
 import "./assets/styles/index.css"
-import PagesHeader from "./components/pages/PagesHeader"
-import PagesSideBar from "./components/pages/PagesSideBar"
-import VideoCollections from "./views/VideoCollections"
-import PagesHeaderLinks from "./components/pages/PagesHeaderLinks"
+import Index from "./views/videos"
 function App() {
 
   return (
     <div className="App">
-      <PagesHeader />
-      <PagesSideBar />
-      <PagesHeaderLinks />
-      <VideoCollections />
+      <Index />
     </div>
   )
 }

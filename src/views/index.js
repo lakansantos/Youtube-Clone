@@ -1,1 +1,0 @@
-export {VideoCollections} from "./VideoCollections";
