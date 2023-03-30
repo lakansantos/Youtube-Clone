@@ -28,8 +28,13 @@ function PagesHeader() {
                 </div>
             </div>
             <div className="header-right-section">
-                <TfiUpload />
-                <BsBell />
+                <img src="https://cdn-icons-png.flaticon.com/512/4189/4189286.png" 
+                alt="create video" 
+                className="create-video-icon"
+                />
+                <BsBell 
+                className="notification-icon"
+                />
                 <img src={avatarIcon} alt="user avatar" className="user-avatar-icon"/>
             </div>
         </div>
