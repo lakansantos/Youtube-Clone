@@ -1,10 +1,11 @@
 import React from 'react';
+// import {PagesSideBar, PagesHeader, PagesHeaderLinks, PagesFooter} from 'components/pages'
+
 import {
     PagesSideBar, 
     PagesHeader, 
-    PagesHeaderLinks,
-    PageFooter,
-} from 'components/pages'
+    PagesHeaderLinks, 
+} from 'components/pages';
 import VideoCollections from './VideoCollections';
 
 
@@ -15,7 +16,6 @@ function Index() {
             <PagesSideBar />
             <PagesHeaderLinks />
             <VideoCollections />
-            <PageFooter />
         </>
     )
 }
