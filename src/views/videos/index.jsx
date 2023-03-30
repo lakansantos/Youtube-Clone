@@ -1,7 +1,12 @@
-import PagesSideBar from "../../components/pages/PagesSideBar"
-import PagesHeader from "../../components/pages/PagesHeader"
-import PagesHeaderLinks from "../../components/pages/PagesHeaderLinks"
-import VideoCollections from "./VideoCollections"
+import React from 'react';
+import {
+    PagesSideBar, 
+    PagesHeader, 
+    PagesHeaderLinks,
+    PageFooter,
+} from 'components/pages'
+import VideoCollections from './VideoCollections';
+
 
 function Index() {
     return (
@@ -10,9 +15,11 @@ function Index() {
             <PagesSideBar />
             <PagesHeaderLinks />
             <VideoCollections />
+            <PageFooter />
         </>
     )
 }
 
 
 export default Index;
+

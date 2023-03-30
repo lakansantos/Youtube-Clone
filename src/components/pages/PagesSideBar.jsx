@@ -12,10 +12,11 @@ import youtubeMusicImage from '/src/assets/images/youtube music.png'
 import youtubeKidsImage from '/src/assets/images/youtube-kids.png'
 import {CiSettings} from 'react-icons/ci'
 import {FiHelpCircle} from 'react-icons/fi'
+import React from "react"
 import {RiFeedbackLine} from 'react-icons/ri'
 
 import PagesFooter from './PagesFooter'
-const PageSideBar = () => {
+function PagesSideBar() {
     return (
         <div className="page-side-bar">
             <div className="icon-container icon-container-1">
@@ -202,4 +203,4 @@ const PageSideBar = () => {
     )
 }
 
-export default PageSideBar;
+export default PagesSideBar;

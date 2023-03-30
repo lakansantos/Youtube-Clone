@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { LinksData } from "../../data/LinksData";
-
-const PagesHeaderLinks = () => {
+import React from "react"
+function PagesHeaderLinks() {
     
     const [clickedIndex, setClickedIndex] = useState(0)
     return (

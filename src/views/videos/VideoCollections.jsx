@@ -4,6 +4,7 @@ import VideoBox from './VideoBox';
 const VideoCollections = () => {
 
     const data = useGetVideos();
+    
     return (
         <div className="video-collections-container">
             {data?.map((postData) => {

@@ -5,8 +5,9 @@ import {BsFillMicFill} from 'react-icons/bs'
 import {TfiUpload} from 'react-icons/tfi'
 import {BsBell} from 'react-icons/bs'
 import avatarIcon from '/src/assets/images/avatarIcon.png'
+import React from "react"
 
-const PagesHeader = () => {
+function PagesHeader() {
     return (
         <div className="pages-header">
            <div className="header-left-section">

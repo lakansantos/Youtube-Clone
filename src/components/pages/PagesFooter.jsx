@@ -1,4 +1,5 @@
-const PagesFooter = () => {
+import React from "react"
+function PagesFooter () {
 
     const firstGroupLinks = ['About', 'Press', 'Copyright', 'Contact us', 'Creators', 'Advertise', 'Developers']
     const secondGroupLinks = ['Terms', 'Privacy', 'Policy & Safety', 'How Youtube Works', 'Test new features']
