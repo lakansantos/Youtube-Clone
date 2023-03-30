@@ -24,12 +24,18 @@ body {
 .header-links-container {
     grid-area: navlinks;
     position: fixed;
+    right: -15%;
     top: 7%;
-    right: 5%;
+    width: 100%;
     z-index: 100;
-    max-width: 90%;
     height: 5%;
     background: white;
+}
+
+
+
+.header-links-container::-webkit-scrollbar {
+    display: none;
 }
 
 /* header section  */
@@ -130,11 +136,12 @@ body {
 
 
 .header-links-container ul {
+    overflow: auto;
     display: flex;
-    width: 100%;
+    white-space: nowrap;
+    width: 80%;
     align-items: center;
     gap: 15px;
-    overflow: auto;
     height: 100%;
 }
 .header-links-container ul::-webkit-scrollbar {
