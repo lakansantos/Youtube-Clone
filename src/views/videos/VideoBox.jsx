@@ -1,11 +1,22 @@
 import {AiFillCheckCircle} from 'react-icons/ai'
 import {BsDot} from 'react-icons/bs'
 import { useState } from 'react'
-
+import cx from 'classnames'
 const VideoBox = ({postData}) => {
-    
-    const [hovered, setHovered] = useState(null)
 
+    const [hovered, setHovered] = useState(null)
+    const borderRadiusClassName = cx(
+        '15px',
+        hovered === postData.id &&
+        '0px'
+    )
+
+    const transformClassName = cx(
+        '',
+        hovered === postData.id &&
+        'scale(1.05)'
+    )
+    
     return (
         <div className="video-box" 
             onMouseEnter={() => setHovered(postData.id)}
@@ -15,9 +26,9 @@ const VideoBox = ({postData}) => {
             className="thumbnail-container"
             style={{
                 background: `url(${postData.thumbnail}) center/cover no-repeat`,
-                borderRadius: `${hovered === postData.id ? '0px' : '15px'}`,
+                borderRadius: `${borderRadiusClassName}`,
                 transition: '.3s ease-in-out',
-                transform: `${hovered === postData.id ? 'scale(1.05)' : ''}`,
+                transform: `${transformClassName}`,
             }}
             >
             {hovered === postData.id && 
