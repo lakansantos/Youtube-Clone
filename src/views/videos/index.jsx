@@ -1,10 +1,8 @@
 import React from 'react';
-// import {PagesSideBar, PagesHeader, PagesHeaderLinks, PagesFooter} from 'components/pages'
-
-import {
-    PagesSideBar, 
+import { 
     PagesHeader, 
-    PagesHeaderLinks, 
+    PagesSideBar, 
+    PagesHeaderLinks 
 } from 'components/pages';
 import VideoCollections from './VideoCollections';
 
