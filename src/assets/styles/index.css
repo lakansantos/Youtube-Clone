@@ -363,8 +363,8 @@ hr {
 .subscription-icon{
     padding: 5px;
     border-radius: 50%;
-    width: 65%;
-    height: 65%;
+    width: 85%;
+    height: 85%;
 }
 
 .subscription-icon.icon-1 {
@@ -387,13 +387,14 @@ hr {
 
 .explore-icon {
     margin: 0;
-    width: 55%;
-    height: 55%;
+    width: 85%;
+    height: 85%;
     padding: 0;
 }
 
 .settings-icon {
-    width: 60%;
+    height: 95%;
+    width: 95%;
 }
 
 /* footer  */
