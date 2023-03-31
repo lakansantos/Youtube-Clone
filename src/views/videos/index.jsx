@@ -15,7 +15,7 @@ function Index() {
             <PagesHeaderLinks />
             <VideoCollections />
         </>
-    )
+    ) 
 }
 
 
