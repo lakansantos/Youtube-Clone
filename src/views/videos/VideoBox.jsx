@@ -25,14 +25,20 @@ const VideoBox = ({postData}) => {
             <div 
             className="thumbnail-container"
             style={{
-                background: `url(${postData.thumbnail}) center/cover no-repeat`,
+                background: 
+                `url(${postData.thumbnail}) 
+                center/cover no-repeat`,
                 borderRadius: `${borderRadiusClassName}`,
                 transition: '.3s ease-in-out',
                 transform: `${transformClassName}`,
             }}
             >
             {hovered === postData.id && 
-                <iframe src={`${postData.embedVideo}?autoplay=1&mute=1&controls=0`} frameBorder={0} height={'100%'} width={'100%'}></iframe>
+                <iframe src={
+                    `${postData.embedVideo}?autoplay=1&mute=1&controls=0`} 
+                    frameBorder={0} height={'100%'} 
+                    width={'100%'}>
+                </iframe>
             }
             </div>
             <div className="video-details-container">
