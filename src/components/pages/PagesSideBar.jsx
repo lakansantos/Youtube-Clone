@@ -24,7 +24,7 @@ function PagesSideBar() {
                     <li className="active"> 
                         <a href="">
                             <span><AiFillHome className="sidebar-icon" /></span>
-                            <p>Home</p>
+                            <p className="active-link">Home</p>
                         </a>
                     </li>
                     <li>
